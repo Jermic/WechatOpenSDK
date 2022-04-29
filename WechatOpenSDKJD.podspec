@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Jermic" => "jermic@qq.com" }
   spec.source       = { :git => "https://github.com/Jermic/WechatOpenSDK.git", :tag => "#{spec.version}" }
-  spec.platform         = :ios, '11.0'
+  spec.platform         = :ios, '9.0'
   
   spec.public_header_files = "OpenSDK1.9.2/*.h"
   spec.source_files        = "OpenSDK1.9.2/*.{h,m,mm}"
