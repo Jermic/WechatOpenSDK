@@ -3,9 +3,10 @@ Pod::Spec.new do |spec|
   spec.version      = "1.9.2"
   spec.summary      = "WechatOpenSDKJD.1.9.2 With Pay"
   spec.description  = <<-DESC
+                   WechatOpenSDKJD.1.9.2 With Pay
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/WechatOpenSDKJD"
+  spec.homepage     = "https://github.com/Jermic/WechatOpenSDK"
   spec.license      = "MIT"
   spec.author             = { "Jermic" => "jermic@qq.com" }
   spec.source       = { :git => "https://github.com/Jermic/WechatOpenSDK.git", :tag => "#{spec.version}" }
